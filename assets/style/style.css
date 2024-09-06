@@ -1,4 +1,9 @@
 /* BASIC STYLES HERE */
+body {
+  background-position: center;
+  background-size: cover;
+}
+
 .profile-picture {
   height: 200px;
   max-width: 100%;
@@ -14,3 +19,6 @@
   --bs-offcanvas-width: 22.5rem;
 }
 
+.footer-content {
+  background: rgba(0, 0, 0, 0.4);
+}

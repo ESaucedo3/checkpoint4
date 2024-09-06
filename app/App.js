@@ -1,5 +1,5 @@
 import {AuthController} from './controllers/AuthController.js';
-import {ImagesController} from './controllers/ImagesController.js';
+import {PhotoController} from './controllers/PhotoController.js';
 import {QuotesController} from './controllers/QuotesController.js';
 import {TodosController} from './controllers/TodosController.js';
 import {WeathersController} from './controllers/WeathersController.js';
@@ -10,7 +10,7 @@ class App {
   AuthController = new AuthController();
   TodosController = new TodosController();
   WeathersController = new WeathersController();
-  ImagesController = new ImagesController();
+  PhotoController = new PhotoController();
   QuotesController = new QuotesController();
 
   constructor() {
