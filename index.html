@@ -24,7 +24,7 @@
 
   <body id="random-photo">
     <main class="p-2">
-      <!-- SECTION Todos & Author -->
+      <!-- SECTION Todos & Photo -->
       <!-- #region -->
       <section class="container-fluid">
         <div class="d-flex justify-content-between">
@@ -56,19 +56,23 @@
       <!-- #endregion  -->
     </main>
 
-    <!-- SECTION -->
     <footer>
-      <div id="quote"></div>
-      <section class="container-fluid">
+      <!-- SECTION Quotes & Time-->
+      <!-- #region -->
+      <div class="quote-design rounded px-1 py-2 w-50 great-quote" id="quote"></div>
+      <section class="container-fluid mt-4">
         <div class="row justify-content-center">
           <div class="col-10 mb-4 rounded-pill p-4 footer-content">
             <div class="row justify-content-between text-light">
               <div class="col-md-4 align-self-center">
-                <p>26 C Sunny ☀</p>
+                <div id="weather" class="d-flex border border-2 border-light weather-design p-1 rounded">
+                  <!-- <p class="m-0 text-center">26*c<br />Sunny</p>
+                  <i class="align-self-center ms-3 fs-3">☀️</i> -->
+                </div>
               </div>
 
               <div class="col-md-4 align-self-center">
-                <h4 class="text-center">09:28am</h4>
+                <h4 id="current-time" class="text-center"></h4>
               </div>
 
               <div class="col-md-4 align-self-center">
@@ -78,6 +82,7 @@
           </div>
         </div>
       </section>
+      <!-- #endregion -->
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>

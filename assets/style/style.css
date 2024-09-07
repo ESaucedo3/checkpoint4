@@ -22,3 +22,23 @@ body {
 .footer-content {
   background: rgba(0, 0, 0, 0.4);
 }
+
+.quote-design {
+  max-width: fit-content;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.actual-author {
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.great-quote:hover > .actual-author {
+  opacity: 1;
+}
+
+.weather-design {
+  max-width: fit-content;
+}
+

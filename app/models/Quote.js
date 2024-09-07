@@ -6,8 +6,8 @@ export class Quote {
 
   get quoteTemplate() {
     return `
-    <p class="text-center">${this.author}</p>
-    <p class="text-center text-light">${this.content}</p>
+    <h3 class="text-center text-light actual-author">${this.author}</h3>
+    <h2 class="text-center text-light">${this.content}</h2>
     `;
   }
 }
