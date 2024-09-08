@@ -40,5 +40,10 @@ body {
 
 .weather-design {
   max-width: fit-content;
+  transition: all .4s;
+
+  &:hover {
+    box-shadow: 0 0 30px azure;
+  }
 }
 

@@ -23,4 +23,8 @@ export class WeathersController {
     const weather = AppState.weather;
     setHTML('weather', weather.weatherTemplate);
   }
+
+  toggleWeather() {
+    weathersService.toggleWeather();
+  }
 }

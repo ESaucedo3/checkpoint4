@@ -57,7 +57,7 @@
     </main>
 
     <footer>
-      <!-- SECTION Quotes & Time-->
+      <!-- SECTION Weather | Time | Quote -->
       <!-- #region -->
       <div class="quote-design rounded px-1 py-2 w-50 great-quote" id="quote"></div>
       <section class="container-fluid mt-4">
@@ -65,10 +65,7 @@
           <div class="col-10 mb-4 rounded-pill p-4 footer-content">
             <div class="row justify-content-between text-light">
               <div class="col-md-4 align-self-center">
-                <div id="weather" class="d-flex border border-2 border-light weather-design p-1 rounded">
-                  <!-- <p class="m-0 text-center">26*c<br />Sunny</p>
-                  <i class="align-self-center ms-3 fs-3">☀️</i> -->
-                </div>
+                <div onclick="app.WeathersController.toggleWeather()" id="weather" class="d-flex border border-2 border-light weather-design p-1 rounded"></div>
               </div>
 
               <div class="col-md-4 align-self-center">
