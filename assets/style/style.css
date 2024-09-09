@@ -48,3 +48,10 @@ body {
   }
 }
 
+
+@media (width <= 768px) {
+  .top-part {
+    flex-direction: column;
+    text-align: center;
+  }
+}
