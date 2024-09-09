@@ -28,7 +28,10 @@
       <!-- #region -->
       <section class="container-fluid">
         <div class="d-flex justify-content-between">
-          <div id="img-author"></div>
+          <div class="details p-2 rounded text-center">
+            <div id="img-author"></div>
+            <button onclick="app.PhotoController.getPhoto(); app.QuotesController.getQuote();" class="btn btn-outline-light" type="button">New Quote | Picture</button>
+          </div>
           <div id="user-todos" class="d-none">
             <button data-bs-toggle="offcanvas" data-bs-target="#notes-canvas" class="btn btn-dark opacity-75 rounded-pill" type="button">
               > <span id="todo-count" class="ms-3"></span> Todos Remaining
@@ -69,7 +72,8 @@
               </div>
 
               <div class="col-md-4 align-self-center">
-                <h4 id="current-time" class="text-center"></h4>
+                <h3 id="greet" class="text-center"></h3>
+                <h3 id="time" class="text-center"></h3>
               </div>
 
               <div class="col-md-4 align-self-center">

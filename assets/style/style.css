@@ -19,7 +19,7 @@ body {
   --bs-offcanvas-width: 22.5rem;
 }
 
-.footer-content {
+.footer-content, .details {
   background: rgba(0, 0, 0, 0.4);
 }
 
@@ -41,6 +41,7 @@ body {
 .weather-design {
   max-width: fit-content;
   transition: all .4s;
+  cursor: pointer;
 
   &:hover {
     box-shadow: 0 0 30px azure;

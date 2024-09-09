@@ -8,7 +8,7 @@ class WeathersService {
     weather.determineTemp = !weather.determineTemp;
   }
   async getWeather() {
-    const response = await api.get('api/weather');
+    const response = await api.get('api/weather?city=Mountain Home');
     const newWeather = new Weather(response.data);
     AppState.weather = newWeather;
     console.log(AppState.weather);
